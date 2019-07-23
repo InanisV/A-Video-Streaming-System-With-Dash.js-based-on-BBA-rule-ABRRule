@@ -1,8 +1,3 @@
----
-title: 'Video Streaming System With Dash.js BBA-version'
-disqus: hackmd
----
-
 A Video Streaming System With Dash.js base on BBA rule
 ===
 
@@ -303,11 +298,5 @@ When implementing the front-end interface, we use [Bootstrap 4](https://getboots
 ## Reference
 
 [1] Te-Yuan Huang, Ramesh Johari, Nick McKeown, Matthew Trunnell, and Mark Watson. 2014. A buffer-based approach to rate adaptation: evidence from a large video streaming service. In Proceedings of the 2014 ACM conference on SIGCOMM (SIGCOMM '14). ACM, New York, NY, USA, 187-198. DOI: https://doi.org/10.1145/2619239.2626296
-
-## Appendix and FAQ
-
-:::info
-**Find this document incomplete?** Leave a comment!
-:::
 
 ###### tags: `DASH.js` `BBARule` `Video Streaming`
