@@ -283,7 +283,7 @@ contributors, dashifTestVectors) {
 'http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/sh/t221445/manifest.mpd'
     };
 ```
-
+Last but not least, all needed resources can be accessed via internet. No outside files or directories are required. All you need is internet and a browser like Chrome.
 
 
 ## Challenges & Solutions
