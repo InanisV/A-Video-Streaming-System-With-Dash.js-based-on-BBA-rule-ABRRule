@@ -14,7 +14,7 @@ SWS3021T5
 * Qian Tangjiang, from UESTC
 * Roger Zimmermann, from NUS
 
-*You can visit our [Project Website](http://monterosa.d2.comp.nus.edu.sg:3001/).*
+*You can visit our [Project Website](http://monterosa.d2.comp.nus.edu.sg:8080/).*
 
 
 ## Table of Contents
@@ -273,7 +273,16 @@ When implementing the front-end interface, we use [Bootstrap 4](https://getboots
 
 ![](https://i.imgur.com/CMofxHe.jpg)
 
-* We also customize our Dash.js player, such as changing layout, delete useless element, and set default mpd file
+* We also customize our Dash.js player, such as changing layout, delete useless element, and set default mpd link.
+
+```javascript=
+app.controller('DashController',function ($scope,sources, 
+contributors, dashifTestVectors) {
+    $scope.selectedItem = {
+        url:
+'http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/sh/t221445/manifest.mpd'
+    };
+```
 
 
 
