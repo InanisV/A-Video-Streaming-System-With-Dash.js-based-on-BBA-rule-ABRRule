@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SWS3021T5 Dash Player</title>
+    <link rel="icon" href="http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/picSrc/logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body style="background-color: #333">
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">SWS3021T5</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Introduction</a></li>
+                <li><a href="./upload">Upload</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Play<b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="divider"></li>
+                        <li><a href="#">Play List</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/compare">Algorithm Comparison</a></li>
+                    </ul>
+                </li>
+                <li class="pull-right"><a href="./play">Play</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/picSrc/1.JPG" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/picSrc/1.JPG" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="http://monterosa.d2.comp.nus.edu.sg/~SWS3021T5/picSrc/1.JPG" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>About Us</h1>
+        <p>SWS3021T5 Dash</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="./about">
+            学习更多</a>
+        </p>
+    </div>
+</div>
+
+</body>
+
+</html>
