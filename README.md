@@ -1,4 +1,4 @@
-A Video Streaming System With Dash.js base on BBA rule
+A Video Streaming System With Dash.js based on BBA rule
 ===
 
 #### Team ID
