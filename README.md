@@ -6,7 +6,7 @@ SWS3021T5
 
 #### Team Member  
 * [Wang Rui](https://github.com/wraymo), from BUPT  
-* [Ying Hang](https://github.com/HangLark), from SU  
+* [Yin Hang](https://github.com/HangLark), from SCU  
 * [Zhan Zhengdao](https://github.com/InanisV), from SUSTech  
 
 #### Greatly Thanks to  
